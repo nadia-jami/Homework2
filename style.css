@@ -1,0 +1,235 @@
+/* ------------------ RESET ------------------ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Custom Styles */
+/* Business styles */
+
+
+body{
+	background-image: url("../images/bgg.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* header */
+header{
+    padding: 40px 0px 20px 40px;
+	margin-top: 70px;
+}
+
+header h1{
+    font-size: 35px;
+    color: white;
+    display: inline-block;
+}
+
+header input{
+	background-color: black;
+	border: 1px solid rgb(68, 68, 68);
+	padding: 5px 10px;
+    float: right;
+    margin-right: 40px;
+}
+
+main{
+    width: 92%;
+    margin: 0 auto;
+}
+
+nav{
+    background-color:rgb(201, 98, 98);
+    padding: 10px;
+}
+nav ul li{
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+
+.active{
+    background-color:rgb(129, 58, 58) ;
+    padding: 8px 15px;
+}
+
+.main-content{
+    padding-top: 30px;
+    color: rgb(185, 179, 179);
+    line-height: 27px;
+    background-color: rgba(63, 62, 62, 0.74);
+    padding: 30px 30px 100px 30px;
+}
+.main-content h1 , h2{
+    color: white;
+}
+.main-content .welcome-part{
+    width: 75%;
+    float: left;
+    padding-right: 20px;
+  
+}
+
+aside{
+    width: 20%;
+    display: inline-block;
+}
+aside p{
+    margin-top: 20px;
+}
+.welcome-part .welcome h2{
+    font-size: 30px;
+}
+.welcome p{
+    margin-top: 25px;
+
+}
+/* .welcome p span{
+    color: white;
+} */
+.welcome p a{
+    color: white;
+}
+.left-part{
+    width: 47%;
+    float: left;
+    margin-right: 20px;
+    
+
+}
+.right-part{
+    width: 50%;
+    display: inline-block;
+}
+.right-part h2 , .left-part h2{
+    font-size: 25px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+h2{
+    font-size: 22px;
+    text-transform: uppercase;
+   
+}
+.box{
+    border-bottom: 1px solid rgb(131, 130, 130);
+    padding-bottom: 10px;
+    padding-left: 7px;
+    margin-top: 25px;
+}
+.box-3{
+    border: none;
+}
+.box img{
+    float: left;
+    margin-right: 25px;
+    width: 80px;
+    height: 80px;
+   
+}
+.link a{
+    color: white;
+}
+.link{
+    border-bottom: 1px solid rgb(131, 130, 130);
+    padding: 12px 0;
+}
+.last-link{
+    border: none;
+}
+aside .aside-heading{
+    margin-top: 120px;
+}
+
+
+footer .black{
+    clear: both;
+    width: 90%;
+    margin: 0 auto ;
+    background-color: black;
+    padding: 30px;
+    height: 35vh;
+    color: white;
+   
+}
+footer .copyright{
+    text-align: center;
+    color: rgb(85, 84, 84);
+    padding: 40px 40px 80px 40px;
+}
+.footer-content{
+    width: 75%;
+    float: left;
+    padding-right: 30px;
+    line-height: 25px;
+}
+.footer-content p{
+    color: rgb(187, 181, 181);
+    margin-top: 30px;
+}
+.footer-links{
+    width: 20%;
+    display: inline-block;
+}
+.f-link{
+    border-bottom: 1px solid rgb(63, 61, 61);
+    padding: 12px 0;
+    margin-top: 15px;
+}
+.f-link a{
+    color: white;
+
+}
+
+
+
+
+/* ------------------------------------------------------------------------------------ */
